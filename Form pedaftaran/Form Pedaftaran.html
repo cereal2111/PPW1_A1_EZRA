@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Gamabunta</title>
+</head>
+<body>
+    <img src="Gambun 1.png" alt="Gambar Pendaftaran" width="400px" height="auto">
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required autofocus><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Masukkan email" required><br><br>
+
+        <label for="Discord">Discord:</label><br>
+        <input type="Discord" id="Discord" name="Discord" placeholder="Masukkan ID Discord" required><br><br>
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+        <select id="jenis_kelamin" name="jenis_kelamin" required>
+            <option value="">Pilih jenis kelamin</option>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select><br><br>
+
+        <label for="Genre">Genre Anime:</label><br>
+        <input type="checkbox" id="genre1" name="genre[]" value="Shounen">
+        <label for="genre1">Shounen</label><br>
+        <input type="checkbox" id="genre2" name="genre[]" value="Shoujo">
+        <label for="genre2">Shoujo</label><br>
+        <input type="checkbox" id="genre3" name="genre[]" value="Isekai">
+        <label for="genre3">Isekai</label><br>
+        <input type="checkbox" id="genre3" name="genre[]" value="Horror">
+        <label for="genre3">Horror</label><br>
+        <input type="checkbox" id="genre3" name="genre[]" value="Sports">
+        <label for="genre3">Sports</label><br><br>
+        
+
+        <label for="Institusi">Institusi:</label><br>
+        <input type="checkbox" id="Institusi1" name="Institusi[]" value="UGM">
+        <label for="Institusi1">UGM</label><br>
+        <input type="checkbox" id="Institusi2" name="Institusi[]" value="Universitas Lain">
+        <label for="Institusi2">Universitas Lain</label><br><br>
+
+        <label for="alamat">Alamat Kos:</label><br>
+        <textarea id="alamat" name="alamat" rows="4" cols="50" placeholder="Masukkan alamat"></textarea><br><br>
+
+        <label for="gambar">Bukti Pembayaran:</label><br>
+        <input type="file" id="gambar" name="gambar" accept="image/*"><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
