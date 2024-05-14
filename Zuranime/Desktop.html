@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuranime</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+        .header {
+            background-color: #1A0082;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        .header img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .nav {
+            background-color: #00406F;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        .nav input[type="text"] {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        .main {
+            background-color: #008FDF;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .anime-item {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px;
+            text-align: center;
+            width: calc(25% - 20px); /* Adjust this value for different screen sizes */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .anime-item img {
+            width: 100%;
+            display: block;
+        }
+        .anime-title {
+            padding: 10px;
+            font-weight: 700; /* Make the font bold */
+        }
+        .anime-title a {
+            color: black; /* Link color */
+            text-decoration: none; /* Remove underline */
+        }
+        .anime-title a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+        @media (max-width: 1200px) {
+            .anime-item {
+                width: calc(33.33% - 20px);
+            }
+        }
+        @media (max-width: 800px) {
+            .anime-item {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 500px) {
+            .anime-item {
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="hololive_production_symbol_1.png" alt="Logo">
+        <h1>Zuranime</h1>
+    </header>
+    <nav class="nav">
+        <a href="#">Trendings</a>
+        <a href="#">Shoujo</a>
+        <a href="#">Seinen</a>
+        <a href="#">Genre</a>
+        <a href="#">Schedules</a>
+        <input type="text" placeholder="Search...">
+    </nav>
+    <main class="main">
+        <div class="anime-item">
+            <img src="image_1.png" alt="Anime 1">
+            <div class="anime-title"><a href="anime1.html">Kono Subarashii Sekai ni Shukufuku wo! 3</a></div>
+        </div>
+        <div class="anime-item">
+            <img src="image_2.png" alt="Anime 2">
+            <div class="anime-title"><a href="anime2.html">Kimetsu no Yaiba: Hashira Geiko-hen</a></div>
+        </div>
+        <div class="anime-item">
+            <img src="image_3.png" alt="Anime 3">
+            <div class="anime-title"><a href="anime3.html">Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2</a></div>
+        </div>
+        <div class="anime-item">
+            <img src="image_4.png" alt="Anime 4">
+            <div class="anime-title"><a href="anime4.html">Tensei shitara Slime Datta Ken 3rd Season</a></div>
+        </div>
+        <div class="anime-item">
+            <img src="image_5.png" alt="Anime 5">
+            <div class="anime-title"><a href="anime5.html">Kaijuu 8-gou</a></div>
+        </div>
+        <div class="anime-item">
+            <img src="image_6.png" alt="Anime 6">
+            <div class="anime-title"><a href="anime6.html">Boku no Hero Academia 7th Season</a></div>
+        </div>
+        <div class="anime-item">
+            <img src="image_7.png" alt="Anime 7">
+            <div class="anime-title"><a href="anime7.html">Wind Breaker</a></div>
+        </div>
+        <div class="anime-item">
+            <img src="image_8.png" alt="Anime 8">
+            <div class="anime-title"><a href="anime8.html">Ookami to Koushinryou: Merchant Meets the Wise Wolf</a></div>
+        </div>
+        <div class="anime-item">
+            <img src="image_9.jpg" alt="Anime 9">
+            <div class="anime-title"><a href="anime9.html">Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou II.</a></div>
+        </div>
+        <div class="anime-item">
+            <img src="image_10.jpg" alt="Anime 10">
+            <div class="anime-title"><a href="anime10.html">Mahouka Koukou no Rettousei 3rd Season</a></div>
+        </div>
+        <div class="anime-item">
+            <img src="image_11.jpg" alt="Anime 11">
+            <div class="anime-title"><a href="anime11.html">Sentai Daishikkaku</a></div>
+        </div>
+        <div class="anime-item">
+            <img src="image_12.jpg" alt="Anime 12">
+            <div class="anime-title"><a href="anime12.html">Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba II?</a></div>
+        </div>
+    </main>
+</body>
+</html>
+
